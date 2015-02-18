@@ -4,6 +4,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".login"
+    android:clickable="true"
     android:background="@drawable/login_wallpaper">
 
     <TextView
@@ -47,13 +48,14 @@
         android:text="@string/btnLogin"
         android:layout_marginTop="30dp"
         android:layout_below="@+id/etPassword"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickLogin" />
 
     <TextView
         android:id="@+id/tvNotYetRegister"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="125dp"
+        android:layout_marginTop="80dp"
         android:text="@string/tvNotYetRegister"
         android:layout_below="@+id/btnLogin"
         android:textColor="#000000"
@@ -66,7 +68,8 @@
         android:text="@string/btnSignUp"
         android:layout_alignBottom="@+id/tvNotYetRegister"
         android:layout_toRightOf="@+id/tvNotYetRegister"
-        android:layout_toEndOf="@+id/tvNotYetRegister" />
+        android:layout_toEndOf="@+id/tvNotYetRegister"
+        android:onClick="onClickSignUp" />
 
 
 </RelativeLayout>
