@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 
-public class login extends ActionBarActivity {
+public class Login extends ActionBarActivity {
 
     private Button btnLogin;
     private Button btnSignUp;
