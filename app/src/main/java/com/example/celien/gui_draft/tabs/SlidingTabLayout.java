@@ -17,6 +17,8 @@ import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.celien.gui_draft.R;
+
 
 /**
  * To be used with ViewPager to provide a tab indicator component which give constant feedback as to
@@ -178,8 +180,8 @@ public class SlidingTabLayout extends HorizontalScrollView {
             }
 
             // Indicate to the user that the tab is selected.
-            // tabTitleView.setTextColor(getResources().getColorStateList(R.color.selector));
-            // tabTitleView.setTextSize(14);
+            tabTitleView.setTextColor(getResources().getColorStateList(R.color.selector));
+            tabTitleView.setTextSize(14);
         }
     }
     public void setContentDescription(int i, String desc) {
