@@ -17,14 +17,17 @@ import com.example.celien.gui_draft.CarsDetailsList;
 import com.example.celien.gui_draft.R;
 import com.example.celien.gui_draft.adapter.CustomCarRowAdapter;
 
+import java.util.Arrays;
+
 public class TabListCars extends Fragment{
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.tab_list_cars, container, false);
 
-        // Create the list
+        // Create ans sort the list
         String[] cars = {"Bmw", "Volvo", "Audi", "Tesla", "Porsche", "Mercedes", "Renault", "Peugeot", "Lada", "Maserati", "Ford"};
+        Arrays.sort(cars);
 
         // Create and set the custom adapter
         ListAdapter adapter = new CustomCarRowAdapter(getActivity(), cars);
