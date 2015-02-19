@@ -62,9 +62,7 @@
         android:layout_below="@+id/tvRanking"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_marginLeft="5dp"
-        android:layout_marginTop="20dp"
-        android:onClick="onClickSettings"
-        android:clickable="true" />
+        android:layout_marginTop="20dp" />
 
     <TextView
         android:id="@+id/tvLogout"
@@ -74,8 +72,6 @@
         android:layout_below="@+id/tvSettings"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="5dp"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:onClick="onClickLogout"
-        android:clickable="true" />
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </RelativeLayout>
