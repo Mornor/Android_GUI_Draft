@@ -15,6 +15,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.example.celien.gui_draft.R;
+import com.example.celien.gui_draft.adapter.CustomCarRowAdapter;
 
 public class TabListCars extends Fragment{
 
@@ -25,8 +26,8 @@ public class TabListCars extends Fragment{
         // Create the list
         String[] cars = {"Bmw", "Volvo", "Audi", "Tesla", "Porsche", "Mercedes", "Renault", "Peugeot", "Lada", "Maserati", "Ford"};
 
-        // Create and set the adapter
-        ListAdapter adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, cars);
+        // Create and set the custom adapter
+        ListAdapter adapter = new CustomCarRowAdapter(getActivity(), cars);
         ListView lvCars = (ListView)rootView.findViewById(R.id.lvCars);
         lvCars.setAdapter(adapter);
 
