@@ -30,14 +30,14 @@ public class Home extends ActionBarActivity {
 
     private void init(){
         nbTabs = 3;
-        titles = new CharSequence[]{"Cars", "Offers", "Account"};
+        titles = new CharSequence[]{"Cars", "Offers", "Profile"};
         toolbar = (Toolbar)findViewById(R.id.tool_bar);
         setSupportActionBar(toolbar);
         adapter = new ViewPagerAdapter(getSupportFragmentManager(), titles, nbTabs);
         pager = (ViewPager)findViewById(R.id.pager);
         pager.setAdapter(adapter);
         tabs = (SlidingTabLayout)findViewById(R.id.tabs);
-        // Enable the differents tabs to be equally reparted on the screen's width. 
+        // Enable the differents tabs to be evenly distributed on the screen's width.
         tabs.setDistributeEvenly(true);
         tabs.setCustomTabColorizer(new SlidingTabLayout.TabColorizer() {
             @Override
