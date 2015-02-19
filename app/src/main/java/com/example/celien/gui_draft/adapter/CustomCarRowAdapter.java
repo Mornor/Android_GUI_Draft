@@ -15,7 +15,7 @@ public class CustomCarRowAdapter extends ArrayAdapter<String>{
 
     /**
      * @param context
-     * @param list
+     * @param list : List of the differents presnts cars.
      */
     public CustomCarRowAdapter(Context context, String[] list) {
         super(context, R.layout.custom_cars_row, list); // For each individual item on the list, use custom_cars_row
