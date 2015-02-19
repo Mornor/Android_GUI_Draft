@@ -1,6 +1,7 @@
 package com.example.celien.gui_draft.tabs;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -8,12 +9,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.AdapterViewAnimator;
-import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.example.celien.gui_draft.CarsDetailsList;
 import com.example.celien.gui_draft.R;
 import com.example.celien.gui_draft.adapter.CustomCarRowAdapter;
 
@@ -37,6 +37,9 @@ public class TabListCars extends Fragment{
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                         String clickedItem = String.valueOf(parent.getItemAtPosition(position));
+                        Intent i = new Intent(getActivity(), CarsDetailsList.class);
+                        i.putExtra("brand", clickedItem);
+                        startActivity(i);
                         Toast.makeText(getActivity(), clickedItem, Toast.LENGTH_SHORT).show();
                     }
                 }

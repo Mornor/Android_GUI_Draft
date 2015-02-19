@@ -12,7 +12,7 @@
     <string name="btnSignUp">Sign up!</string>
     <string name="title_activity_home">Home</string>
 
-    <!-- custom_details_cars.xml-->
+    <!-- custom_details_cars.xml -->
     <string name="tvOwner">Owner </string>
     <string name="tvEditableOwner">Editable Owner</string>
     <string name="tvModel">Model </string>
@@ -22,6 +22,10 @@
     <string name="tvAvailable">Available </string>
     <string name="tvEditableAvailable">Editable Available</string>
     <string name="btnRent">Rent it !</string>
+    <string name="title_activity_cars_details_list">cars_details_list</string>
+
+    <!-- activity_cars_detail_list -->
+    <string name="tvTitleCarDetailsList">Car Brand</string>
 
 
 </resources>
