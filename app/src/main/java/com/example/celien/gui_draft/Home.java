@@ -29,6 +29,8 @@ public class Home extends ActionBarActivity {
     }
 
     private void init(){
+
+        // Set the Settings of the tabs
         nbTabs = 3;
         titles = new CharSequence[]{"Cars", "Offers", "Profile"};
         toolbar = (Toolbar)findViewById(R.id.tool_bar);

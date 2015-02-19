@@ -3,25 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/tvTitleCarList"
-        android:layout_width="wrap_content"
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
         android:layout_height="wrap_content"
-        android:text="@string/tvTitleCarDetailsList"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:gravity="center_horizontal|center_vertical"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="5dp"
-        />
+        android:layout_width="match_parent" />
 
 
     <ListView
         android:id="@+id/lvDetailsCars"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/tvTitleCarList"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true" />
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/tool_bar" />
 
 
 </RelativeLayout>

@@ -40,7 +40,6 @@ public class TabListCars extends Fragment{
                         Intent i = new Intent(getActivity(), CarsDetailsList.class);
                         i.putExtra("brand", clickedItem);
                         startActivity(i);
-                        Toast.makeText(getActivity(), clickedItem, Toast.LENGTH_SHORT).show();
                     }
                 }
         );
