@@ -1,12 +1,10 @@
 package com.example.celien.gui_draft;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
 import android.widget.ListAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 import com.example.celien.gui_draft.adapter.CustomDetailsCarRowAdapter;
 
 

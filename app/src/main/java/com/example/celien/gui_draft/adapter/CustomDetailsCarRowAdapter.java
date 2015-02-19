@@ -1,6 +1,7 @@
 package com.example.celien.gui_draft.adapter;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,6 +33,12 @@ public class CustomDetailsCarRowAdapter extends ArrayAdapter<String[]>{
         tvEditableModel.setText(item[1]);
         tvEditablePrice.setText(item[2]);
         tvEditableAvailable.setText(item[3]);
+
+        // Color in green or red if available or not
+        if(item[3].equals("Yes"))
+            tvEditableAvailable.setTextColor(Color.GREEN);
+        else
+            tvEditableAvailable.setTextColor(Color.RED);
 
         return customView;
     }
