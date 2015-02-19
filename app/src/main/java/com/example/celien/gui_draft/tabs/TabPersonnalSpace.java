@@ -14,6 +14,9 @@ public class TabPersonnalSpace extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.tab_personnal_space, container, false);
+        View rootView = inflater.inflate(R.layout.tab_personnal_space, container, false);
+
+        return rootView;
     }
+
 }

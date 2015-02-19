@@ -3,6 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
     <TextView
         android:id="@+id/tvName"
         android:layout_width="wrap_content"
@@ -62,9 +68,7 @@
         android:layout_below="@+id/tvRanking"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_marginLeft="5dp"
-        android:layout_marginTop="20dp"
-        android:onClick="onClickSettings"
-        android:clickable="true" />
+        android:layout_marginTop="20dp" />
 
     <TextView
         android:id="@+id/tvLogout"
@@ -74,8 +78,7 @@
         android:layout_below="@+id/tvSettings"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="5dp"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:onClick="onClickLogout"
-        android:clickable="true" />
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
 
 </RelativeLayout>

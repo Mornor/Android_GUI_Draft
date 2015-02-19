@@ -3,6 +3,8 @@ package com.example.celien.gui_draft.adapter;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
+import android.view.View;
+import android.widget.Toast;
 
 import com.example.celien.gui_draft.tabs.TabListCars;
 import com.example.celien.gui_draft.tabs.TabOffers;

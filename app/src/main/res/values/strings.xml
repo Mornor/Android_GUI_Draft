@@ -23,9 +23,15 @@
     <string name="tvEditableAvailable">Editable Available</string>
     <string name="title_activity_cars_details_list">Details</string>
 
-
     <!-- activity_cars_detail_list -->
     <string name="tvTitleCarDetailsList">Car Brand</string>
 
+    <!-- custom_personnal_space -->
+    <string name="tvName">Name</string>
+    <string name="tvPseudo">Pseudo</string>
+    <string name="tvRanking">Ranking</string>
+    <string name="tvEditableRanking">4/100</string>
+    <string name="tvSettings">Settings</string>
+    <string name="tvLogout">Logout</string>
 
 </resources>
