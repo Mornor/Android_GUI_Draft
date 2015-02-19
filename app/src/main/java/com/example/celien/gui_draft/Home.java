@@ -37,6 +37,8 @@ public class Home extends ActionBarActivity {
         pager = (ViewPager)findViewById(R.id.pager);
         pager.setAdapter(adapter);
         tabs = (SlidingTabLayout)findViewById(R.id.tabs);
+        // Enable the differents tabs to be equally reparted on the screen's width. 
+        tabs.setDistributeEvenly(true);
         tabs.setCustomTabColorizer(new SlidingTabLayout.TabColorizer() {
             @Override
             public int getIndicatorColor(int position) {

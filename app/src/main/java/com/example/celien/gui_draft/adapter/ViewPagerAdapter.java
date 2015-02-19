@@ -36,8 +36,8 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
                 TabOffers tabOffers = new TabOffers();
                 return tabOffers;
             case 2 :
-                //TabPersonnalSpace tabPersonnalSpace = new TabPersonnalSpace();
-                //return tabPersonnalSpace;
+                TabPersonnalSpace tabPersonnalSpace = new TabPersonnalSpace();
+                return tabPersonnalSpace;
         }
         return null;
     }
