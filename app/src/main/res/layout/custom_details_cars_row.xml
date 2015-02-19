@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvOwner"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tvOwner"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/tvEditableOwner"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/tvEditableOwner"
+        android:layout_toRightOf="@+id/tvOwner"
+        android:layout_toEndOf="@+id/tvOwner"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvModel"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/tvOwner"
+        android:text="@string/tvModel"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/tvEditableModel"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/tvEditableModel"
+        android:layout_toRightOf="@+id/tvModel"
+        android:layout_below="@+id/tvEditableOwner"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tvPrice"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/tvModel" />
+
+    <TextView
+        android:id="@+id/tvEditablePrice"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="@string/tvEditablePrice"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/tvEditableModel"
+        android:layout_toRightOf="@+id/tvModel"
+        android:layout_toEndOf="@+id/tvPrice"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tvAvailable"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:text="@string/tvAvailable"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/tvPrice" />
+
+    <TextView
+        android:id="@+id/tvEditableAvailable"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="@string/tvEditableAvailable"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvEditablePrice"
+        android:layout_toRightOf="@+id/tvAvailable"
+        android:layout_toEndOf="@+id/tvAvailable"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnRent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRent"
+        android:layout_below="@+id/tvAvailable"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+
+
+</RelativeLayout>
