@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvFindACar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/tvFindACar"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/ivFindACar"
+            android:layout_width="fill_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/find_a_car"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tvFindACar"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/tvManageMyRent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ivFindACar"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/tvManageMyRent"
+            />
+
+        <ImageView
+            android:id="@+id/ivManageMyRent"
+            android:layout_width="fill_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/tvManageMyRent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/manage_rent"
+            android:scaleType="fitXY" />
+
+    </RelativeLayout>
+
+</ScrollView>

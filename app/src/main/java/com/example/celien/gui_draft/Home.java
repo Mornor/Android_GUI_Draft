@@ -32,7 +32,7 @@ public class Home extends ActionBarActivity {
 
         // Set the Settings of the tabs
         nbTabs = 3;
-        titles = new CharSequence[]{"Cars", "Offers", "Profile"};
+        titles = new CharSequence[]{"Cars", "Manage", "Profile"};
         toolbar = (Toolbar)findViewById(R.id.tool_bar);
         setSupportActionBar(toolbar);
         adapter = new ViewPagerAdapter(getSupportFragmentManager(), titles, nbTabs);

@@ -35,5 +35,10 @@
     <string name="tvLogout">Logout</string>
     <string name="tvMyCar">My car</string>
 
+    <!-- tab_offers -->
+    <string name="tvFindACar">Find a car </string>
+    <string name="tvManageMyRent">Manage my rents</string>
+    <string name="title_activity_search_car">SearchCar</string>
+
 
 </resources>
