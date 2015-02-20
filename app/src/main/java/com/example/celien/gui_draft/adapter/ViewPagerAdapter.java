@@ -5,7 +5,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 import com.example.celien.gui_draft.tabs.TabListCars;
-import com.example.celien.gui_draft.tabs.TabManage;
+import com.example.celien.gui_draft.tabs.TabManager;
 import com.example.celien.gui_draft.tabs.TabPersonnalSpace;
 
 public class ViewPagerAdapter extends FragmentStatePagerAdapter {
@@ -33,8 +33,8 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
                 TabListCars tabListCars = new TabListCars();
                 return tabListCars;
             case 1 :
-                TabManage tabManage = new TabManage();
-                return tabManage;
+                TabManager tabManager = new TabManager();
+                return tabManager;
             case 2 :
                 TabPersonnalSpace tabPersonnalSpace = new TabPersonnalSpace();
                 return tabPersonnalSpace;

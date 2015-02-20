@@ -14,7 +14,7 @@ import android.widget.Toast;
 import com.example.celien.gui_draft.R;
 import com.example.celien.gui_draft.SearchCar;
 
-public class TabManage extends Fragment{
+public class TabManager extends Fragment{
 
 
     @Override
