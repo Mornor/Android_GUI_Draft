@@ -26,12 +26,14 @@
     <!-- activity_cars_detail_list -->
     <string name="tvTitleCarDetailsList">Car Brand</string>
 
-    <!-- custom_personnal_space -->
+    <!-- tab_personnal_space -->
     <string name="tvName">Name</string>
     <string name="tvPseudo">Pseudo</string>
     <string name="tvRanking">Ranking</string>
     <string name="tvEditableRanking">4/100</string>
     <string name="tvSettings">Settings</string>
     <string name="tvLogout">Logout</string>
+    <string name="tvMyCar">My car</string>
+
 
 </resources>
